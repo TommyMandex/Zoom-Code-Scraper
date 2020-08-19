@@ -52,7 +52,7 @@ try:
 
         try:
             url = tweet['entities']['urls'][0]['expanded_url']
-        except Exception:
+        except IndexError:
             continue
         if 'us04web.zoom.us' in url and '?pwd=' in url:
             save(
