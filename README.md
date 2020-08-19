@@ -15,8 +15,6 @@ His Discord username: verdict#0200
 - Python 3.8 or above is required.
 - I develop for Windows machines only and do not intentionally support other operating systems.
 - If you do not already have the **requests** library installed, run setup.py — make sure PIP is added to PATH.
-
-How to grab your headers:
 1. Launch any HTTP debugger — built-in browser debuggers work. In this example, I am going to use Chrome's built-in debugger.
 2. Head over to the [Network tab](https://i.imgur.com/UAzJL0R.png).
 3. Visit [this URL](https://twitter.com/search?q=zoom%20code&src=typed_query&f=live) — in the same tab.
