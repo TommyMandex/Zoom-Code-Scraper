@@ -42,9 +42,7 @@ response = requests.get(
 try:
     for tweet in response.json()['globalObjects']['tweets'].values():
         content = tweet['full_text']
-        if any(i in content for i in ['pass', 'code', 'raid', 'join']) and all(
-            i not in content for i in ['#', '@']
-        ):
+        if any(i in content for i in ['pass', 'code', 'raid', 'join']) and '@' not in content:
             save(
                 '[POSSIBLE]\n'
                 f'{content}\n'
