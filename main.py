@@ -25,9 +25,9 @@ response = requests.get(
         'x-guest-token': '1296027737430384642',
         'x-twitter-active-user': 'yes',
         'accept': '*/*',
-        'Sec-Fetch-Site': 'same-site',
-        'Sec-Fetch-Mode': 'cors',
-        'Sec-Fetch-Dest': 'empty',
+        'sec-Fetch-Site': 'same-site',
+        'sec-Fetch-Mode': 'cors',
+        'sec-Fetch-Dest': 'empty',
         'authorization': 'Bearer AAAAAAAAAAAAAAAAAAAAANRILgAAAAAAnNwIzUejRCOuH5E6I8xnZz4puTs%3D1Zv7'
                          'ttfk8LF81IUq16cHjhLTvJu4FA33AGWWjCpTnA',
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Ge'
