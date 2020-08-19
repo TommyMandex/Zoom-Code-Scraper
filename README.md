@@ -2,7 +2,7 @@
 Finds Zoom Codes for you.
 
 ## Information
-This tool will scrape Twitter data for you. It specifically searches for Zoom Codes/URLs posted recently by other users.
+This tool specifically searches for Zoom Codes/URLs posted recently by users on Twitter. It filters possible results.
 
 I got the idea from verdict, he made a similar tool a few months ago but using TweetDeck. Mine uses Twitter's official API.<br/>
 His Discord username: verdict#0200
