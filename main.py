@@ -93,7 +93,7 @@ if not error:
                 )
                 scraped += 1
     except KeyError:
-        print('Invalid cookies.')
+        print('Invalid headers.')
 
     os.system(f'title [Zoom Code Scraper] - Scraped: {scraped} && pause >NUL')
 else:
